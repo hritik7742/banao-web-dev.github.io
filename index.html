@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  
+    
+</head>
+<body>
+  <div class="main-navbar-box">
+    <nav class="navbar-box" id="navbar-box">
+        <div class="logo">
+       <h1>
+          <span class="Green-logo">ATG.</span><span class="light-black-logo">W<span class="Green-logo">O</span>RLD</span>
+        </h1>
+        </div>
+       
+        <div class="search">
+           <i class="fas fa-search" style="color: #b7b8b8;"></i> 
+              
+              <input type="text" placeholder="Search for your favorite groups in ATG">
+
+        </div>
+        
+        <div class="account">
+        
+
+            <!-- Button trigger modal -->
+<button type="button" id="btn-btn-primary" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+ <span class="btn-create">Create account?<span class="btn-free">its free!</span></span> 
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    
+    <div class="modal-content">
+     
+      <div class="Login-form-info-box">
+        <div class="Login-form-image">
+          <img src="images/Loginform.png" alt="">
+        </div>
+     
+      <div class="modal-body">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Create Account</h1>
+        
+        <span> Don’t have an account yet? Create new for free!</span> 
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        
+
+        <form>
+          <!-- 2 column grid layout with text inputs for the first and last names -->
+          <div class="row mb-4">
+            <div class="col">
+              <div class="form-outline">
+                <input type="text" id="form3Example1" class="form-control" />
+                <label class="form-label" for="form3Example1">First name</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-outline">
+                <input type="text" id="form3Example2" class="form-control" />
+                <label class="form-label" for="form3Example2">Last name</label>
+              </div>
+            </div>
+          </div>
+        
+          <!-- Email input -->
+          <div class="form-outline mb-4">
+            <input type="email" id="form3Example3" class="form-control" />
+            <label class="form-label" for="form3Example3">Email address</label>
+          </div>
+        
+          <!-- Password input -->
+          <div class="form-outline mb-4">
+            <input type="password" id="form3Example4" class="form-control" />
+            <label class="form-label" for="form3Example4">Password</label>
+          </div>
+        
+          <!-- Checkbox -->
+          <div class="form-check d-flex justify-content-center mb-4">
+            <input class="form-check-input me-2" type="checkbox" value="" id="form2Example33" checked />
+            <label class="form-check-label" for="form2Example33">
+              Subscribe to our newsletter
+            </label>
+          </div>
+        
+          <!-- Submit button -->
+          <button type="submit" id="create-account" class="btn btn-primary btn-block mb-4">Create Account</button>
+        
+          <!-- Register buttons -->
+          <div class="text-center">
+            <p>or sign up with:</p>
+            <button type="button" class="btn btn-secondary btn-floating mx-1">
+              <i class="fab fa-facebook-f"></i>
+            </button>
+        
+            <button type="button" class="btn btn-secondary btn-floating mx-1">
+              <i class="fab fa-google"></i>
+            </button>
+        
+            <button type="button" class="btn btn-secondary btn-floating mx-1">
+              <i class="fab fa-twitter"></i>
+            </button>
+        
+            <button type="button" class="btn btn-secondary btn-floating mx-1">
+              <i class="fab fa-github"></i>
+            </button>
+          </div>
+        </form>
+
+
+      </div>
+
+    </div>
+     
+    </div>
+  </div>
+</div>
+        
+        </div>
+      </nav>
+      <div class="image-section">
+        <div class="mobile-navigation-bar">
+          <i class="fa-solid fa-arrow-left" id="menu-show" style="color: #ffffff;"></i>  
+        
+          <button >Join group</button>
+        </div>
+        <img src="images/img4.jpg" alt="Image">
+        <div class="image-details">
+          <h2>Computer Engineering</h2>
+          <p>142,765 Computer Engineers follow this</p>
+        </div>
+      </div>
+    </div>
+      <div class="nav-container">
+        <div class="nav-items">
+          <a href="#" >All Posts(32)</a>
+          <a href="#" class="item">Article</a>
+          <a href="#" class="item">Event</a>
+          <a href="#" class="item">Education</a>
+          <a href="#" class="item">Job</a>
+        </div>
+        <div class="button-container">
+          <button class="write-post">Write a Post</button>
+          <button class="join-group">Join Group</button>
+          <button class="filter-group">Filter <i class="fa-solid fa-sort-down"></i></button>
+        </div>
+      </div>
+      <div class="container-box">
+<div class="post-container-box">
+  
+  <div class="post">
+    <img src="images/img3.jpg" alt="Post Image">
+    <div class="post-description">
+    <h2 class="post-title">✍️ Article</h2>
+    <h3 class="post-heading">What if famous brands had regular fonts? Meet RegulaBrands!</h3>
+    <p class="post-paragraph">I’ve worked in UX for the better part of a decade. From now on, I plan to rei…</p>
+
+    <div class="profile-container">
+        <div class="main-profile">
+        <div class="profile-circle">
+          <img src="images/man-1.jpg" alt="Profile Icon">
+        </div>
+        <h2>Sarthak Kamra</h2>   
+    </div> 
+    
+        <div class="profile-info">
+          <div class="view-info">
+            <i class="fa fa-eye"></i>
+            <span>1.2k</span>
+          </div>
+          <div class="share-info">
+            <i class="fa-sharp fa-solid fa-share-nodes"></i>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+  </div>
+  
+  <!--  -->
+
+
+
+      <div class="post">
+        <img src="images/img1.jpg" alt="Post Image">
+        <div class="post-description">
+        <h2 class="post-title">🔬️ Education</h2>
+        <h3 class="post-heading">Tax Benefits for Investment under National Pension Scheme launched by Government</h3>
+        <p class="post-paragraph">I’ve worked in UX for the better part of a decade. From now on, I plan to rei…</p>
+
+        <div class="profile-container">
+            <div class="main-profile">
+            <div class="profile-circle">
+              <img src="images/man-3.jpg" alt="Profile Icon">
+            </div>
+            <h2>josep</h2>   
+        </div> 
+        
+            <div class="profile-info">
+              <div class="view-info">
+                <i class="fa fa-eye"></i>
+                <span>1.2k</span>
+              </div>
+              <div class="share-info">
+                <i class="fa-sharp fa-solid fa-share-nodes"></i>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+
+      </div>
+
+      <!--  -->
+
+
+      
+      <div class="post">
+        <img src="images/img2.jpg" alt="Post Image">
+        <div class="post-description">
+        <h2 class="post-title">🗓️ Meetup</h2>
+        <h3 class="post-heading">Finance & Investment Elite Social Mixer @Lujiazui</h3>
+        <div class="post-date-location">
+          <span> <i class="fa-sharp fa-regular fa-calendar-check"></i>  Fri, 12 Oct, 2018</span>
+          <span> <i class="fas fa-map-marker-alt"></i>  Ahmedabad, India</span>
+        </div>
+        <button class="visit-website-button">Visit Website</button>
+        <div class="profile-container">
+            <div class="main-profile">
+            <div class="profile-circle">
+              <img src="images/man-2.jpg" alt="Profile Icon">
+            </div>
+            <h2>hritik</h2>   
+        </div> 
+        
+            <div class="profile-info">
+              <div class="view-info">
+                <i class="fa fa-eye"></i>
+                <span>1.2k</span>
+              </div>
+              <div class="share-info">
+                <i class="fa-sharp fa-solid fa-share-nodes"></i>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+
+      </div>
+
+
+      <!--  -->
+
+        
+   
+      <div class="post">
+        <img src="images/img2.jpg" alt="Post Image">
+        <div class="post-description">
+        <h2 class="post-title">💼️ Job</h2>
+        <h3 class="post-heading">Software Developer</h3>
+        <div class="post-date-location">
+          <span> <i class="fa-sharp fa-regular fa-calendar-check"></i>  Innovaccer Analytics Private Ltd.</span>
+          <span> <i class="fas fa-map-marker-alt"></i>  Noida, India</span>
+        </div>
+        <button class="visit-website-button" id="visit-website-button-job">Apply on Timesjobs</button>
+        <div class="profile-container">
+            <div class="main-profile">
+            <div class="profile-circle">
+              <img src="images/man-3.jpg" alt="Profile Icon">
+            </div>
+            <h2>hritik</h2>   
+        </div> 
+        
+            <div class="profile-info">
+              <div class="view-info">
+                <i class="fa fa-eye"></i>
+                <span>1.2k</span>
+              </div>
+              <div class="share-info">
+                <i class="fa-sharp fa-solid fa-share-nodes"></i>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+
+      </div>
+
+      <!--  -->
+
+ 
+
+      <!--  -->
+
+ 
+
+    </div>
+
+    
+      <div class="input-field">
+        <i class="fas fa-map-marker-alt"></i>
+
+                <input type="text" id="address" value="Jaipur, Rajasthan">
+        <span class="edit-icon"><i class="fa-solid fa-pen"></i></span>
+      </div>
+      
+      
+    
+    </div>
+      
+
+   <script>
+    const menuBtn = document.getElementById("menu-show");
+const navbarBox = document.getElementById("navbar-box");
+
+menuBtn.addEventListener("click", () => {
+  if (navbarBox.style.display === "none") {
+    navbarBox.style.display = "block";
+    navbarBox.style.textAlign="center"
+    menuBtn.style.transform="rotate(90deg)"
+    menuBtn.style.marginTop="-5px"
+    
+  } else {
+    navbarBox.style.display = "none";
+      menuBtn.style.transform="rotate(0deg)"
+    menuBtn.style.marginTop="21px"
+  }
+});
+   </script>
+      
+<script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  
+</body>
+</html>

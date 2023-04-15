@@ -1,0 +1,563 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo img {
+    height: 30px;
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+    border-radius: 9px;
+    padding: 5px;
+    width: 360px;
+    height: 41px;
+    background: #F2F2F2;
+    border-radius: 21px;
+    padding-left: 13px;
+}
+  
+  
+  .search input {
+    border: none;
+    width: 110%;
+    margin-right: 5px;
+    /* padding-right: 50px; */
+    padding-left: 7px;
+    outline: none;
+    background: #F2F2F2;
+  }
+  
+  .search i {
+    position: relative;
+    padding: 8px;
+  }
+  
+  .account{
+    font-size: 12px;
+    font-weight: 600;
+    font-family: system-ui;
+  }
+
+  .account span a {
+    background: none;
+    border: none;
+    color: blue;
+    text-decoration: none;
+
+  }
+
+  .image-section {
+    position: relative;
+    width: 100%;
+    height: 300px; /* Set the height according to your requirement */
+  }
+  
+  .image-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+
+  /*  */
+
+  .image-section {
+    position: relative;
+  }
+  
+  .image-section:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.4));
+  }
+  
+  .image-details {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    color: #fff;
+    
+  }
+  
+
+  /*  */
+  
+  .image-details {
+    position: absolute;
+    bottom: 40px;
+    left: 87px;
+    padding: 20px;
+    color: #fff;
+    /* width: 100%; */
+    /* padding-left: 43px; */
+    box-sizing: border-box;
+    /* margin-bottom: 27px; */
+}
+  
+  
+  .image-details h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+  }
+  
+  .image-details p {
+    margin: 0;
+    font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 11px 1px 1px 0px #E0E0E0;
+  }
+  
+  .nav-items a {
+    margin-right: 10px;
+    color: #8A8A8A;
+    margin-right: 17px;
+    text-decoration: none;
+
+  }
+  .nav-items a:nth-child(1){
+    color: black;
+  }
+  
+  .nav-items a:hover{
+    border-bottom: 2px solid black;
+    padding-bottom: 19px;
+    color: black;
+  }
+
+  .button-container button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 500;
+    
+     
+    ;
+    cursor: pointer;
+  }
+  
+  .write-post {
+    background: #EDEEF0;
+  color: black
+  ;}
+  
+  .join-group {
+    margin-left: 12px;
+background: #2F6CE5;
+color: white;
+  }
+
+  .post {
+           /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    margin-top: 31px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 96%;
+  }
+  
+  .post img {
+    width: 100%;
+    max-width: 714px;
+    height: 241px;
+    margin-bottom: 10px;
+    object-fit: cover;
+  }
+  
+  .post-title {
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 10px;
+  }
+  
+  .post-heading {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    width: 67%;
+    word-spacing: 6px;
+  }
+  
+  .post-paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+    color: #5C5C5C;
+
+  }
+
+  .post-description{
+    padding: 16px;
+  }
+
+  .input-field {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 35px;
+    margin-top: 26px;
+    border: none;
+    box-shadow: 1px 2px 0px 0px lightgrey;
+  }
+  .input-field i{
+    padding-right: 10px;
+  }
+  
+  .logo {
+ margin: 5px;;
+  }
+  .logo h1{
+    font-weight: lighter;
+    font-family: sans-serif;
+    font-size: 26px;
+    margin: 7px;
+  }
+  .logo h1 .Green-logo{
+    color: green;
+  }
+
+  .logo h1 .light-black-logo{
+    color: #5d5c5ce3;
+
+  }
+  .map-logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+  }
+
+  .share-info i{
+    background-color: #8080805e;
+    padding: 6px 12px 6px;
+    border-radius: 3px;
+}
+  
+
+  #address {
+    flex: 1;
+    border: none;
+    outline: none;
+  }
+  
+  .edit-icon {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .fa-pencil {
+    font-size: 20px;
+    color: #777;
+  }
+  
+  .container-box{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 96%;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 13px;
+  }
+  
+  .profile-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .profile-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .profile-info {
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+ .view-info{
+  padding-right: 20px;
+ }
+  
+  .view-info span {
+    margin-left: 5px;
+  }
+  
+  .fa-eye, .fa-share {
+    font-size: 16px;
+    margin-right: 5px;
+    color: #777;
+  }
+  .main-profile{
+    display: flex;
+    align-items: center;
+  }
+  .main-profile h2{
+    padding-left: 13px;
+    padding-top: 8px;
+    font-size: 18px;
+  }
+  
+  .post-container-box{
+    
+width: 47%;
+  }
+
+/* 
+ login modal  */
+
+ .modal-content{
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    left: -36% !important;
+    width: 182% !important;
+    position: absolute;
+ }
+
+ .modal-header{
+  
+  border: none !important;
+  width: 217% !important;
+    margin-top: -4% !important;
+    
+ }
+
+ .modal-header span{
+  position: absolute;
+    left: 131%;
+    width: 61%;
+ }
+
+ 
+
+ .Login-form-info-box{
+  display: flex;
+  flex-direction: row-reverse;
+ }
+
+ .Login-form-image{
+  width: 50%;
+    margin: auto;
+    margin: 3%;
+    margin-top: 8%;
+ }
+
+ .Login-form-image img{
+  width: 100%;
+  object-fit: cover;
+ }
+
+ #create-account{
+width: 100% ;
+}
+
+#btn-btn-primary {
+  background: none ;
+    border: none;
+    font-size: 14px ;
+    height: 42px ;
+
+    color: #000000d6;
+    font-weight: 500;
+    font-family: inherit;
+}
+
+.btn-free{
+  color: #0000ffe0;
+    padding-left: 5px;
+}
+.mobile-navigation-bar{
+  display: none;
+}
+
+.button-container button:nth-child(3){
+  display: none;
+}
+.visit-website-button{
+  border: 1px solid #80808078;
+  width: 100%;
+  height: 35px;
+  border-radius: 12px;
+  margin-top: 8px;
+  color: red;
+  font-size: 14px;
+  padding: 5px;
+  background: none;
+  font-weight: 500;
+}
+#visit-website-button-job{
+  color: green;
+  border: 1px solid lightgreen
+}
+
+.post-date-location span:nth-child(1){
+  margin-right: 56px;
+}
+
+.post-date-location{
+  margin-bottom: 9px;
+  margin-top: 17px;
+}
+
+
+  
+  /* Styles for tablets */
+  @media only screen and (max-width: 1024px) {
+    /* your CSS styles for tablets go here */
+    .navbar-box{
+      display: none;
+    }
+    .mobile-navigation-bar{
+      display: flex;
+      background: transparent;
+      position: absolute;
+      width: 96%;
+      padding-left: 2px;
+    }
+    .mobile-navigation-bar i{
+      margin-top: 21px;
+      padding-left: 18px;
+      /* height: 22px; */
+      font-size: 23px;
+    }
+    .mobile-navigation-bar button{
+      position: relative;
+      left: 86%;
+      margin-top: 14px;
+      color: white;
+      background-color: transparent;
+      width: 95px;
+      height: 41px;
+      border-radius: 5px;
+      border: 1px solid white;
+      font-family: sans-serif;
+      font-weight: bold;
+      font-size: 14px;
+      margin-left: -28px;
+    };
+  }
+
+  
+  
+    /* Styles for phones */
+@media only screen and (max-width: 600px) {
+  .container-box{
+      display: block;
+      
+  }
+  .post-container-box{
+      width: 100%;
+  }
+  .post{
+      padding: 0px;
+      width: 100%;
+  }
+  .mobile-navigation-bar{
+   width: 80%;
+  }
+  .item{
+    display: none;
+  }
+.image-details{
+  left: 0px;
+
+}
+/* .image-details h2{
+  font-size: 21px;
+}
+.image-details p{
+  font-size: 10px;;
+} */
+.button-container button:nth-child(1){
+  display: none;
+}
+.button-container button:nth-child(2){
+  display: none;
+}
+.button-container button:nth-child(3){
+  display: flex;
+}
+.filter-group i{
+  padding: 2px;
+  padding-left: 7px;
+
+}
+.post-title{
+  font-size: 13px;
+}
+.post-heading{
+  font-size: 13px;
+  width: 93%;
+}
+.post-paragraph{
+  font-size: 11px;
+}
+.profile-circle{
+  width: 36px;
+  height: 36px;
+}
+.profile-info {
+  font-size: 13px;
+}
+
+.main-profile h2{
+  font-size: 13px;
+}
+.post-date-location{
+  font-size: 12px;
+}
+
+}
